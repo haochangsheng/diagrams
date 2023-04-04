@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T12:04:34.577Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.4" etag="ZfZn0v1axefMPqXh63_A" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T12:15:36.343Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="s2rH6AWo7kgdTBLEh0AB" version="21.1.4" type="github">
   <diagram name="Page-1" id="_dUUb8UXCMTl2kKZ3o2k">
-    <mxGraphModel>
+    <mxGraphModel dx="758" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="5RkyQR9SovFUlX5KzRcC-1" target="5RkyQR9SovFUlX5KzRcC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-14" value="Target Fx Fy Fz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="5RkyQR9SovFUlX5KzRcC-13">
+          <mxGeometry x="-0.2545" y="-5" relative="1" as="geometry">
+            <mxPoint x="12" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-1" value="LQR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5RkyQR9SovFUlX5KzRcC-2" target="5RkyQR9SovFUlX5KzRcC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-2" value="VMC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="5RkyQR9SovFUlX5KzRcC-7" target="5RkyQR9SovFUlX5KzRcC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-7" value="Velocity Command" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="505" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="5RkyQR9SovFUlX5KzRcC-9" target="5RkyQR9SovFUlX5KzRcC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-9" value="IMU" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="300" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="5RkyQR9SovFUlX5KzRcC-11" target="5RkyQR9SovFUlX5KzRcC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-11" value="Actuator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="740" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RkyQR9SovFUlX5KzRcC-15" value="Joint Torque" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="505" width="130" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
